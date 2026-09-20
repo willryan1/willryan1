@@ -4,7 +4,7 @@
 > the public, but because it is fun to program."
 > *- Linus Torvalds*
 
-Engineer and builder. Interested in algorithms, artificial intelligence, and financial markets.
+Engineer and builder. Interested in algorithms, artificial intelligence, and market structure.
 Currently at DraftKings, before that Salesforce.
 
 ### Machine learning
