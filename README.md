@@ -1,43 +1,37 @@
 ## Will Ryan
 
-Senior Machine Learning Engineer at DraftKings, previously Salesforce. I work on production ML
-and agentic systems — recommendation, retrieval, and the infrastructure that keeps them honest.
-Most of what I build is an attempt to find out whether something actually works, so a fair amount
-of it ends up written up as negative results.
+Senior MLE at DraftKings. Recommendation systems and the platforms that serve them.
 
-Lately I've been interested in two questions: where small models lose information they were
-already given, and how far an autonomous agent can be pushed before the bounds have to come from
-the system rather than from the model.
+I wrote my first neural net in 2019, in Java, with no libraries, because I wanted to see the math
+happen. Most of what's here is a version of that.
 
----
+### Now
 
-**[guild](https://github.com/willryan1/guild)** · Python, Postgres
+**[guild](https://github.com/willryan1/guild)**
+Agents that research, validate and run small businesses. Event-driven on Postgres, with hard caps
+on spend and scope so it can't run away. 16 design docs, 269 tests.
 
-An autonomous internet holding company: agents that discover, validate, and operate digital
-businesses. Event-driven, hard-bounded campaigns, a permission model that denies rather than
-prompts, and every state transition written to the database. 16 architecture decision records,
-269 tests.
+**[retention-headroom](https://github.com/willryan1/retention-headroom)**
+When you prune an LLM's context to fit a budget, does picking chunks by causal importance beat
+picking by attention? Tested on Qwen3-0.6B over LongBench. Not really. And the gap that made it
+look promising turned out to be a weak baseline.
 
-**[retention-headroom](https://github.com/willryan1/retention-headroom)** · Python, PyTorch
+### 2025
 
-When an LLM's context is pruned to a budget, does selecting chunks by causal contribution beat
-selecting by attention? Measured on Qwen3-0.6B over LongBench QA against hindsight oracles and a
-pre-registered threshold. The answer is *barely* — and the more useful finding is that the gap
-which made this look promising in the first place was an artifact of a weak baseline.
+**[NeuroSpace](https://github.com/willryan1/NeuroSpace)**
+LLM inference with IPFS storage and transaction receipts on Base. FastAPI, React, Solidity.
+Six months of nights and weekends.
 
-**[NeuroSpace](https://github.com/willryan1/NeuroSpace)** · Python, TypeScript, Solidity
+### 2019 to 2021
 
-Decentralized LLM inference with verifiable provenance — prompts and responses stored on IPFS,
-transaction hashes recorded on Base. FastAPI backend, React frontend, local model serving.
+**[ML-Algorithms](https://github.com/willryan1/ML-Algorithms)** · implementations of the standard
+algorithms, written to learn them
 
-**[brain](https://github.com/willryan1/brain)** · Python, PyTorch
+**[Java-Neural-Net](https://github.com/willryan1/Java-Neural-Net)** · a neural net in Java, no
+numpy, to understand the math
 
-A sketch of four principles of biological cognition in ~400 lines: predictive world model,
-episodic memory, curiosity-driven exploration, and wake/sleep consolidation. Runs on a laptop CPU.
+**[FirstNN](https://github.com/willryan1/FirstNN)** · the same idea in numpy, on iris
 
----
+**[Harp](https://github.com/willryan1/Harp)** · routes local traffic through Tor using iptables
 
-The older repositories here — [ML-Algorithms](https://github.com/willryan1/ML-Algorithms),
-[FirstNN](https://github.com/willryan1/FirstNN),
-[Java-Neural-Net](https://github.com/willryan1/Java-Neural-Net) — are me learning the fundamentals
-by implementing them from scratch without libraries, mostly between 2019 and 2020.
+**[algorithms](https://github.com/willryan1/algorithms)** · CSES problem set, C++
