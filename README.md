@@ -4,7 +4,7 @@
 > the public, but because it is fun to program."
 > *- Linus Torvalds*
 
-Engineer and builder. Machine intelligence is what I do with my free time.
+Engineer and builder. Interested in algorithms and artificial intelligence.
 Currently at DraftKings, before that Salesforce.
 
 ### Machine learning
