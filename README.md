@@ -1,37 +1,38 @@
 ## Will Ryan
 
-Senior MLE at DraftKings. Recommendation systems and the platforms that serve them.
+> "Most good programmers do programming not because they expect to get paid or get adulation by
+> the public, but because it is fun to program."
+> *- Linus Torvalds*
 
-I wrote my first neural net in 2019, in Java, with no libraries, because I wanted to see the math
-happen. Most of what's here is a version of that.
+Engineer and builder. Machine intelligence is what I do with my free time.
+Currently at DraftKings, before that Salesforce.
 
-### Now
+### Machine learning
 
-**[guild](https://github.com/willryan1/guild)**
-Agents that research, validate and run small businesses. Event-driven on Postgres, with hard caps
-on spend and scope so it can't run away. 16 design docs, 269 tests.
+[**guild**](https://github.com/willryan1/guild) · agents that research, validate and run small businesses, with hard limits on what they can spend and do
 
-**[retention-headroom](https://github.com/willryan1/retention-headroom)**
-When you prune an LLM's context to fit a budget, does picking chunks by causal importance beat
-picking by attention? Tested on Qwen3-0.6B over LongBench. Not really. And the gap that made it
-look promising turned out to be a weak baseline.
+[**retention-headroom**](https://github.com/willryan1/retention-headroom) · when you prune an LLM's context to fit a budget, does causal importance beat attention for choosing what to keep?
 
-### 2025
+[**NeuroSpace**](https://github.com/willryan1/NeuroSpace) · LLM inference with responses on IPFS and receipts on Base
 
-**[NeuroSpace](https://github.com/willryan1/NeuroSpace)**
-LLM inference with IPFS storage and transaction receipts on Base. FastAPI, React, Solidity.
-Six months of nights and weekends.
+[**brain**](https://github.com/willryan1/brain) · a small predictive world model with episodic memory and a sleep cycle
 
-### 2019 to 2021
+[**ML-Algorithms**](https://github.com/willryan1/ML-Algorithms) · the standard algorithms, implemented to learn how they work
 
-**[ML-Algorithms](https://github.com/willryan1/ML-Algorithms)** · implementations of the standard
-algorithms, written to learn them
+[**Java-Neural-Net**](https://github.com/willryan1/Java-Neural-Net) · a neural net in Java, no libraries
 
-**[Java-Neural-Net](https://github.com/willryan1/Java-Neural-Net)** · a neural net in Java, no
-numpy, to understand the math
+### Security
 
-**[FirstNN](https://github.com/willryan1/FirstNN)** · the same idea in numpy, on iris
+[**Harp**](https://github.com/willryan1/Harp) · routes local traffic through Tor using iptables
 
-**[Harp](https://github.com/willryan1/Harp)** · routes local traffic through Tor using iptables
+[**Encryptionator3.0**](https://github.com/willryan1/Encryptionator3.0) · encrypts and decrypts files
 
-**[algorithms](https://github.com/willryan1/algorithms)** · CSES problem set, C++
+[**DDoS-Classification**](https://github.com/willryan1/DDoS-Classification) · statistical models for classifying DDoS traffic
+
+### Elsewhere
+
+[**algorithms**](https://github.com/willryan1/algorithms) · CSES problems in C++
+
+[**TCP-Socket-Chat-App**](https://github.com/willryan1/TCP-Socket-Chat-App) · a CLI chat app over raw sockets in C
+
+[**TicTacToe-Reinforcement-Learning**](https://github.com/willryan1/TicTacToe-Reinforcement-Learning) · one bot that learns, one that just uses logic
